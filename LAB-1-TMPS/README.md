@@ -1,7 +1,7 @@
 # LAB-1-TMPS
 [**`Condiția lucrării de laborator nr.1`**](https://github.com/MihaiGaidau/TMPS-LABs/blob/main/Lab%231/README.md)
 
-## Explicarea codului din fișierul SOLID.py
+## Explicarea codului din fișierul `SOLID.py`
 1. Principiul responsabilității unice **(Single Responsibility Principle)**: Clasa `Calculator` are o singură responsabilitate, aceea de a efectua operații matematice. Această responsabilitate este îndeplinită de cele patru metode ale clasei.
 
 2. Principiul deschis-închis **(Open-Closed Principle)**: Clasa `Calculator` este deschisă pentru extensii (adăugarea de noi operații), dar închisă pentru modificări. Dacă dorim să adăugăm o nouă operație, putem crea o nouă metodă în clasa `Calculator`, fără a modifica codul existent.
