@@ -42,6 +42,8 @@ class CalculatorFactory:
 ```
 Astfel, Singleton Pattern este utilizat pentru a asigura că există o singură instanță a clasei `Calculator`, în timp ce Factory Pattern este utilizat pentru a crea instanțe ale clasei `Calculator` folosind metoda `create_calculator()` din clasa `CalculatorFactory`.
 
+---
+
 `Sigleton Pattern` și `Factory Pattern` sunt două modele de design utilizate în programare pentru a rezolva anumite probleme comune.
 
 > Singleton Pattern:
