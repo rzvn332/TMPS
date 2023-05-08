@@ -5,8 +5,8 @@
 ## Explicarea codului din fișierul `CreationalDesignPatterns.py`
 
 Acest cod folosește două design pattern-uri:<br>
-1.Singleton Pattern
-2.Factory Pattern
+* Singleton Pattern<br>
+* Factory Pattern
 
 În codul dat, Singleton Pattern este utilizat în clasa `Calculator`, în secțiunea marcată cu comentarii `# Add initialization code here`. Iată secțiunea respectivă a codului:
 
