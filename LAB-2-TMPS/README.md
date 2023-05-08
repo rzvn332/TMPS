@@ -31,3 +31,12 @@ class Calculator:
     # Restul codului...
 ```
 
+Factory Pattern este utilizat în clasa `CalculatorFactory`, în metoda `create_calculator()`. Iată secțiunea respectivă a codului:
+
+```python
+class CalculatorFactory:
+    def create_calculator(self):
+        return Calculator()
+
+# Restul codului...
+```
