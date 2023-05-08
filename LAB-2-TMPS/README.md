@@ -4,7 +4,7 @@
 
 ## Explicarea codului din fișierul `CreationalDesignPatterns.py`
 
-Acest cod folosește două design pattern-uri:
+Acest cod folosește două design pattern-uri:<br>
 1.Singleton Pattern
 2.Factory Pattern
 
@@ -40,3 +40,4 @@ class CalculatorFactory:
 
 # Restul codului...
 ```
+Astfel, Singleton Pattern este utilizat pentru a asigura că există o singură instanță a clasei `Calculator`, în timp ce Factory Pattern este utilizat pentru a crea instanțe ale clasei `Calculator` folosind metoda `create_calculator()` din clasa `CalculatorFactory`.
