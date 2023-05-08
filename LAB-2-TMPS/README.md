@@ -8,8 +8,9 @@ Acest cod folosește două design pattern-uri:
 1.Singleton Pattern
 2.Factory Pattern
 
+În codul dat, Singleton Pattern este utilizat în clasa `Calculator`, în secțiunea marcată cu comentarii `# Add initialization code here`. Iată secțiunea respectivă a codului:
+
 ```python
-{
 class Calculator:
     _instance = None
 
@@ -28,6 +29,5 @@ class Calculator:
         }
 
     # Restul codului...
-}
 ```
 
