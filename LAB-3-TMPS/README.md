@@ -48,4 +48,4 @@ Prin utilizarea pattern-urilor Decorator și Facade, s-a adăugat funcționalita
 
 ---
 
-`ScreenShot` :arrow_down:
+`ScreenShot` :arrow_down: :arrow_down: :arrow_down:
