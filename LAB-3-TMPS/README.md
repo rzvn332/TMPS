@@ -1,6 +1,6 @@
 # LAB-3-TMPS
 
-[**`Condiția lucrării de laborator nr.3`**]([https://github.com/MihaiGaidau/TMPS-LABs/blob/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%232/README.md](https://github.com/MihaiGaidau/TMPS-LABs/tree/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%233))
+[**`Condiția lucrării de laborator nr.3`**](https://github.com/MihaiGaidau/TMPS-LABs/blob/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%232/README.md](https://github.com/MihaiGaidau/TMPS-LABs/tree/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%233)
 
 ## Explicarea codului din fișierul `StructuralDesignPatterns.py`
 
