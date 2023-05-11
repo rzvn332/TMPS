@@ -4,11 +4,7 @@
 
 ## Explicarea codului din fișierul `StructuralDesignPatterns.py`
 
-Acest cod folosește două design pattern-uri:<br>
-* Singleton Pattern<br>
-* Factory Pattern
-
-În codul dat, Singleton Pattern este utilizat în clasa `Calculator`, în secțiunea marcată cu comentarii `# Add initialization code here`. Iată secțiunea respectivă a codului:
+În codul din `StructuralDesignPatterns.py`, au fost utilizate două pattern-uri de design structural: **Decorator** și **Facade**.<br> Iată cum au fost aplicate și ce funcționalitate nouă au adus:
 
 ```python
 class Calculator:
