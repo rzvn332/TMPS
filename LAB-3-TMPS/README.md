@@ -2,7 +2,7 @@
 
 [**`Condiția lucrării de laborator nr.2`**](https://github.com/MihaiGaidau/TMPS-LABs/blob/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%232/README.md)
 
-## Explicarea codului din fișierul `CreationalDesignPatterns.py`
+## Explicarea codului din fișierul `StructuralDesignPatterns.py`
 
 Acest cod folosește două design pattern-uri:<br>
 * Singleton Pattern<br>
