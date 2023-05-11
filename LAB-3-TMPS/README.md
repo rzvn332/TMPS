@@ -49,3 +49,5 @@ Prin utilizarea pattern-urilor Decorator și Facade, s-a adăugat funcționalita
 ---
 
 `ScreenShot` :arrow_down: :arrow_down: :arrow_down:
+
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg](https://github.com/rzvn332/TMPS/blob/main/LAB-3-TMPS/ScreenShot/all_screenshot.png "San Juan Mountains")
