@@ -41,3 +41,5 @@ class CalculatorFacade:
     def compute_power(self, base, exponent):
         return base ** exponent
 ```
+
+> Pattern-ul Facade este utilizat pentru a oferi o interfață simplificată și unificată către anumite funcționalități complexe ale calculatorului. Clasa `CalculatorFacade` acționează ca o interfață de nivel înalt pentru a efectua operații precum calculul mediei sau ridicarea la putere. Aceasta ascunde detaliile complexe ale operațiilor individuale și oferă o interfață mai prietenoasă utilizatorului pentru a accesa aceste funcționalități avansate. Acesta adaugă un nivel de abstractizare și separă logica complexă în spatele unei interfețe mai simple.
