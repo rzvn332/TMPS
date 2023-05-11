@@ -25,3 +25,19 @@ class OperationDecorator(Operation):
 ```
 
 > Pattern-ul Decorator a fost utilizat pentru a înconjura obiectele de tip operație (`Operation`) cu un decorator (`OperationDecorator`). Acest decorator adaugă funcționalitatea de înregistrare a operațiilor în istoric. Astfel, fiecare operație este înconjurată de decorator, care înregistrează operația și adaugă rezultatul în istoric. Acesta extinde funcționalitatea de bază a operațiilor și le oferă capacitatea de a înregistra istoricul operațiilor efectuate.
+
+`Facade:`
+
+```python
+class CalculatorFacade:
+    def __init__(self, calculator):
+        self.calculator = calculator
+
+    def compute_average(self, numbers):
+        total = sum(numbers)
+        avg = total / len(numbers)
+        return avg
+
+    def compute_power(self, base, exponent):
+        return base ** exponent
+```
