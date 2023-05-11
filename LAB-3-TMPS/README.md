@@ -50,4 +50,4 @@ Prin utilizarea pattern-urilor Decorator și Facade, s-a adăugat funcționalita
 
 `ScreenShot` :arrow_down: :arrow_down: :arrow_down:
 
-[![alt text](http://url/to/img.png)](https://github.com/rzvn332/TMPS/blob/debec02a03fd0e189d70c5d6fcdfb864b26c499d/LAB-3-TMPS/ScreenShot/all_screenshot.png)
+![My Remote Image](https://github.com/rzvn332/TMPS/blob/debec02a03fd0e189d70c5d6fcdfb864b26c499d/LAB-3-TMPS/ScreenShot/all_screenshot.png)
