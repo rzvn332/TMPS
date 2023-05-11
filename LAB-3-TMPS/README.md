@@ -6,25 +6,22 @@
 
 În codul din `StructuralDesignPatterns.py`, au fost utilizate două pattern-uri de design structural: **Decorator** și **Facade**.<br> Iată cum au fost aplicate și ce funcționalitate nouă au adus:
 
+`Decorator:`
+
 ```python
-class Calculator:
-    _instance = None
+class OperationDecorator(Operation):
+    def __init__(self, operation):
+        self.operation = operation
+        self.history = []
 
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
-            # Add initialization code here
-        return cls._instance
+    def execute(self, a, b):
+        result = self.operation.execute(a, b)
+        operation_str = f"{a} {self.operation.get_operation_symbol()} {b} = {result}"
+        self.history.append(operation_str)
+        return result
 
-    def __init__(self):
-        self.operations = {
-            '+': Add(),
-            '-': Subtract(),
-            '*': Multiply(),
-            '/': Divide()
-        }
-
-    # Restul codului...
+    def get_operation_symbol(self):
+        return self.operation.get_operation_symbol()
 ```
 
 Factory Pattern este utilizat în clasa `CalculatorFactory`, în metoda `create_calculator()`. Iată secțiunea respectivă a codului:
