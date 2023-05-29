@@ -61,3 +61,30 @@ class PasteCommand(Command):
 Această clasă extinde clasa `Command` și implementează metoda `execute()`. Aici se realizează comanda de lipire a conținutului din clipboard în editor, salvându-se în același timp o copie a selecției curente în variabila `backup`.
 
 ---
+
+> Definirea clasei de editor de text (TextEditor):
+
+```python
+class TextEditor(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.pack()
+
+        # Codul pentru crearea interfeței grafice
+
+    # Metode pentru manipularea textului și interacțiunea cu comenzile
+
+    def cut(self):
+        cut_command = CutCommand(self)
+        cut_command.execute()
+
+    def copy(self):
+        copy_command = CopyCommand(self)
+        copy_command.execute()
+
+    def paste(self):
+        paste_command = PasteCommand(self)
+        paste_command.execute()
+```
+
+Aceasta reprezintă clasa de editor de text, care acționează ca invocator pentru comenzile de tăiere, copiere și lipire. În metodele `cut()`, `copy()` și `paste()`, se creează obiecte de comandă corespunzătoare și se apelează metoda execute() pentru fiecare comandă.
