@@ -93,4 +93,4 @@ Aceasta reprezintă clasa de editor de text, care acționează ca invocator pent
 
 `ScreenShot` :arrow_down: :arrow_down: :arrow_down:
 
-![My Remote Image](https://github.com/rzvn332/TMPS/blob/debec02a03fd0e189d70c5d6fcdfb864b26c499d/LAB-3-TMPS/ScreenShot/all_screenshot.png)
+![My Remote Image](https://github.com/rzvn332/TMPS/blob/a4d7dd5732d2d0a4623a11cc6b7f8893ff32b8e8/LAB-4-TMPS/ScreenShot/SCREEN-SHOT.png)
