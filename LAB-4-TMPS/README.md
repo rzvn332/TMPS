@@ -88,3 +88,9 @@ class TextEditor(tk.Frame):
 ```
 
 Aceasta reprezintă clasa de editor de text, care acționează ca invocator pentru comenzile de tăiere, copiere și lipire. În metodele `cut()`, `copy()` și `paste()`, se creează obiecte de comandă corespunzătoare și se apelează metoda execute() pentru fiecare comandă.
+
+---
+
+`ScreenShot` :arrow_down: :arrow_down: :arrow_down:
+
+![My Remote Image](https://github.com/rzvn332/TMPS/blob/debec02a03fd0e189d70c5d6fcdfb864b26c499d/LAB-3-TMPS/ScreenShot/all_screenshot.png)
