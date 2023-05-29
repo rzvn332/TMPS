@@ -7,39 +7,30 @@
 Acest cod folosește două design pattern-uri:<br>
 * Șablonul Command
 
-În codul dat, Singleton Pattern este utilizat în clasa `Calculator`, în secțiunea marcată cu comentarii `# Add initialization code here`. Iată secțiunea respectivă a codului:
+În acest cod, există un șablon `Behavioral Design Pattern`, anume șablonul `Command`. Acesta este utilizat pentru a decupla comanda de acțiunea specifică pe care o execută. În cadrul acestui șablon, sunt definite următoarele secvențe de cod:
+
+>> Definirea clasei de comandă de bază (Command):
 
 ```python
-class Calculator:
-    _instance = None
-
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
-            # Add initialization code here
-        return cls._instance
-
-    def __init__(self):
-        self.operations = {
-            '+': Add(),
-            '-': Subtract(),
-            '*': Multiply(),
-            '/': Divide()
-        }
-
-    # Restul codului...
+class Command:
+    def execute(self):
+        pass
 ```
+Aceasta reprezintă clasa de bază pentru toate comenzile și conține o metodă abstractă, `execute()`, care va fi implementată în clasele derivate.
 
-Factory Pattern este utilizat în clasa `CalculatorFactory`, în metoda `create_calculator()`. Iată secțiunea respectivă a codului:
+>> Definirea clasei de comandă de tăiere (CutCommand):
 
 ```python
-class CalculatorFactory:
-    def create_calculator(self):
-        return Calculator()
+class CutCommand(Command):
+    def __init__(self, editor):
+        self.editor = editor
+        self.backup = None
 
-# Restul codului...
+    def execute(self):
+        self.backup = self.editor.get_selection()
+        self.editor.delete_selection()
 ```
-Astfel, Singleton Pattern este utilizat pentru a asigura că există o singură instanță a clasei `Calculator`, în timp ce Factory Pattern este utilizat pentru a crea instanțe ale clasei `Calculator` folosind metoda `create_calculator()` din clasa `CalculatorFactory`.
+Această clasă extinde clasa `Command` și implementează metoda `execute()`. Aici se realizează comanda de tăiere, unde se salvează o copie a selecției curente în variabila `backup` și se elimină selecția din editor.
 
 ---
 
