@@ -1,6 +1,6 @@
-# LAB-2-TMPS
+# LAB-4-TMPS
 
-[**`Condiția lucrării de laborator nr.2`**](https://github.com/MihaiGaidau/TMPS-LABs/blob/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%232/README.md)
+[**`Condiția lucrării de laborator nr.4`**](https://github.com/MihaiGaidau/TMPS-LABs/blob/9aeeeeb68abfb9d749f7b0c296fb914972139f86/Lab%234/README.md)
 
 ## Explicarea codului din fișierul `CreationalDesignPatterns.py`
 
